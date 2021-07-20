@@ -378,27 +378,14 @@ h6 {
   color: #828282;
 }
 
-@media (max-width: 768px) {
-  .skills {
-    padding-bottom: 99px;
-  }
-
-  .skills__row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .skills__stars {
-    margin-bottom: 80px;
-  }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .container {
     max-width: 327px;
     padding: 0 5px;
+  }
+
+  .title {
+    padding-bottom: 80px;
   }
 
   .title__text {
@@ -421,5 +408,33 @@ h6 {
 
   .title__col:last-child {
     display: none;
+  }
+
+  .about {
+    padding-top: 80px;
+    padding-bottom: 76px;
+  }
+
+  .skills {
+    padding: 80px 0;
+  }
+
+  .skills__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .skills__stars {
+    margin-bottom: 80px;
+  }
+
+  .portfolio {
+    padding: 80px 0;
+  }
+
+  .footer {
+    padding: 80px 0;
   }
 }
